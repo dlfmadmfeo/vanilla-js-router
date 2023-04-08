@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
+    <title>Vanilla.js Router</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="/">홈</a>
+        <a href="/bbs">게시판</a>
+        <a href="/user">유저정보</a>
+    </nav>
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    <script type="module" src="./main.js"></script>
+</body>
+
 </html>
+
+<style>
+    .navbar>a {
+        font-size: 20px;
+    }
+</style>
